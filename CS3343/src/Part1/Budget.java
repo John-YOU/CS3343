@@ -32,6 +32,6 @@ public class Budget {
  
     public void change(String typeName,float amount){
         float newValue = (float)budgetTypes.get(typeName);
-        
+        budgetTypes.put(typeName, newValue);
     }
 }
