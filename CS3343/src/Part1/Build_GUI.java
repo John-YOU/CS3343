@@ -13,17 +13,17 @@ import java.util.*;
  */
 public class Build_GUI extends javax.swing.JFrame {
     //This is the different sub-types of Budget, can be defined by users
-    public ArrayList<String> budget_types = new ArrayList<>();
-    
+    private ArrayList<String> budget_types;
+    private Currency currency;
     /**
      * Creates new form Build_GUI
      */
     public Build_GUI() {
         initComponents();
-        
+        currency = new Currency();
+        budget_types = new ArrayList<>();
     }
 
-    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
