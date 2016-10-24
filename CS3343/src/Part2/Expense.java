@@ -5,6 +5,8 @@
  */
 package Part2;
 
+import Part1.*;
+import java.util.*;
 /**
  *
  * @author youhan
@@ -14,4 +16,6 @@ package Part2;
 public class Expense extends Exchange{
     protected boolean exchangeType=true;
     public String type;
+    
+    
 }

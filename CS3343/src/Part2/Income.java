@@ -5,10 +5,24 @@
  */
 package Part2;
 
+import Part1.*;
+import java.util.*;
+
 /**
  *
  * @author youhan
  */
 public class Income extends Exchange {
-    protected boolean type=false;
+    private boolean type=false;
+    
+    //youhan:   this is used to store the date of receive money,
+    //          it can be null if receive money instantly        
+    private Date transferDate; 
+    
+    //youhan:   it's used to represent whether the income is periodic or not
+    private boolean periodic; 
+    
+    
+    
+    
 }

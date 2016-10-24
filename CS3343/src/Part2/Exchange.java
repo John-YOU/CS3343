@@ -5,6 +5,8 @@
  */
 package Part2;
 
+import Part1.*;
+import java.util.*;
 /**
  *
  * @author youhan
@@ -12,6 +14,7 @@ package Part2;
 public class Exchange {
     protected float amount;
     protected boolean type;
+
     
     public float getAmount(){
         return amount;
@@ -21,4 +24,5 @@ public class Exchange {
         return type;
     }
    
+    
 }
