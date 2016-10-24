@@ -15,6 +15,8 @@ public class Build_GUI extends javax.swing.JFrame {
     //This is the different sub-types of Budget, can be defined by users
     private ArrayList<String> budget_types;
     private Currency currency;
+    private Date date;
+    
     /**
      * Creates new form Build_GUI
      */
