@@ -21,12 +21,10 @@ public class Assets {
     private String[] assetType = {"Checking account","Cash","Savings","Investment","Others"};
     protected ArrayList<Income> allIncomes;
     protected ArrayList<Expense> allExpenses;
-    protected ArrayList<CreditCard> allCards;
     
     protected float balance;
     protected String name;
     protected int color;
-    
     
     public Assets(float initialBalance, String name, String color, String type){
         this.allIncomes = new ArrayList<>();
@@ -80,11 +78,6 @@ public class Assets {
     
     public void changeBalance(Float f){
         balance+=f;
-    }
-    
-    //add new credit card
-    public void addCreditCard(CreditCard c){
-        allCards.add(c);
     }
     
     
